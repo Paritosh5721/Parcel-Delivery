@@ -1,0 +1,55 @@
+.row {
+  height: 100%;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.image1 {
+  width: 85%;
+  border-radius: 20px;
+  margin-top: 200px;
+  height: 500px;
+}
+
+.image2 {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+section {
+  margin-top: 70px;
+  margin-left: 170px;
+  margin-right: 170px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .image1 {
+    display: none;
+  }
+}
+
+h1 {
+  color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding-right: 0;
+}
+
+.btn3 {
+  width: 100%;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.para {
+  color: rgb(252, 252, 252);
+  display: inline;
+}
+.bg {
+  background-color: rgba(27, 3, 53, 0.699);
+  height: 100vh;
+}

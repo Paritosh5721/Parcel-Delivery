@@ -1,0 +1,118 @@
+<div class="parent">
+  <div class="row bg">
+    <div class="col-xs-12 con-head mb-4">
+      <h1>Parcel Details</h1>
+    </div>
+    <div class="col-xs-12">
+      <div class="container">
+        <div class="row">
+          <form class="form py-4">
+            <div class="form-group parcel-type">
+              <p class="label">Type:</p>
+              <select name="cat" id="cat" class="form-select">
+                <option value="light">Primary</option>
+                <option value="heavy">Secondary</option>
+              </select>
+            </div>
+            <div class="form-group line">
+              <div>
+                <p class="label">Weight:</p>
+                <input
+                  type="text"
+                  name="weight(in kg)"
+                  #weight
+                  class="form-control p-3"
+                />
+              </div>
+              <div>
+                <p class="label">Length & Breadth:</p>
+                <input
+                  type="text"
+                  name="dimention"
+                  #dimention
+                  class="form-control p-3"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <p class="label">Upload Parcel Image</p>
+            </div>
+            <div class="mb-3">
+              <label for="mob_no" class="col-md-3 control-label"
+                >Profile Image</label
+              >
+              <div class="col-sm-9">
+                <input type="file" accept="" />
+              </div>
+            </div>
+            <br />
+            <div class="form-group addr">
+              <p class="label">Pickup Address:</p>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Enter Pickup Address"
+                  name="Address"
+                  #address
+                  class="form-control p-3"
+                />
+              </div>
+              <div class="pin">
+                <div>
+                  <p class="label">City:</p>
+                  <input
+                    type="text"
+                    class="city"
+                    name="city"
+                    #city
+                    class="form-control p-3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="form-group addr">
+              <p class="label">Drop Address:</p>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Enter Drop Address"
+                  class="form-control p-3"
+                  name="Address"
+                  #address
+                />
+              </div>
+
+              <div>
+                <p class="label">City:</p>
+                <input
+                  type="text"
+                  class="city"
+                  name="city"
+                  #city
+                  class="form-control p-3"
+                />
+              </div>
+            </div>
+            <div>
+              <p class="label">Alternate Phone Number:</p>
+              <input
+                type="number"
+                name="PhoneNumber"
+                #PhoneNumber
+                class="form-control p-3"
+              />
+            </div>
+            <div>
+              <button
+                class="btn btn-success proceed-btn mt-4"
+                (click)="getsubmit()"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

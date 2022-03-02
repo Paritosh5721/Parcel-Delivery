@@ -1,0 +1,82 @@
+<div class="row bg" style="width: 100%">
+  <div class="col-lg-7">
+    <div
+      class="container"
+      style="display: flex; flex-direction: column; align-items: center"
+    >
+      <img src="./assets/login2.png" class="img-fluid image2" alt="" />
+      <h1>Sign Up</h1>
+      <form style="width: 80%">
+        <div>
+          <div class="col-log-7 my-4">
+            <input
+              type="text"
+              placeholder="Name"
+              class="form-control p-3"
+              name="Name"
+              [(ngModel)]="Name"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="col-log-7 my-4">
+            <input
+              type="text"
+              placeholder="Username"
+              class="form-control p-3"
+              name="Username"
+              [(ngModel)]="Username"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="col-log-7 my-4">
+            <input
+              type="email"
+              placeholder="Email"
+              class="form-control p-3"
+              name="Email"
+              [(ngModel)]="Email"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="col-log-7 my-4">
+            <input
+              type="password"
+              placeholder="Password"
+              class="form-control p-3"
+              name="Password"
+              [(ngModel)]="Password"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="col-log-7 my-4">
+            <input
+              type="phone"
+              placeholder="Phone Number"
+              class="form-control p-3"
+              name="Phone"
+              [(ngModel)]="Phone"
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-log-12">
+            <button
+              type="button"
+              class="btn btn-primary btn2 btn3"
+              (click)="getdata()"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="col-lg-5">
+    <img src="./assets/signup.png" class="img-fluid image1" />
+  </div>
+</div>
